@@ -4,13 +4,13 @@
   data-path="component-library/components/hero/hero.eleventy.liquid"
   data-key="hero"
 >
-  {% for tag in tags %}
-    {% bookshop "tag" bind: tag %}
-  {% endfor %}
+  {% for tag in tags %}{% bookshop "tag" bind: tag %}{% endfor %}<p></p>
+  <p></p>
+  <p></p>
   <h1 class="c-title__title">
     {{ title }}
   </h1>
-  {% if content %}
-    {% bookshop "content" bind: content %}
-  {% endif %}
+  <p></p>
+  <p></p>
+  <p></p>{% if content %}{% bookshop "content" bind: content %}{% endif %}
 </div>
