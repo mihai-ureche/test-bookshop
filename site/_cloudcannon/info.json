@@ -398,6 +398,62 @@
               "type": "array"
             }
           }
+        },
+        {
+          "value": {
+            "_bookshop_name": "content",
+            "content_html": "",
+            "type": "standard"
+          },
+          "label": "Content",
+          "description": "Generic rich content area",
+          "icon": "wysiwyg",
+          "tags": [
+            "Text"
+          ],
+          "_inputs": {
+            "type": {
+              "type": "select",
+              "options": {
+                "values": [
+                  "standard",
+                  "note"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "value": {
+            "_bookshop_name": "hero",
+            "title": "Hello World!",
+            "content": null,
+            "tags": []
+          },
+          "label": "Hero",
+          "description": "Main page hero block",
+          "icon": "title",
+          "tags": [
+            "Hero",
+            "WYSIWYG"
+          ],
+          "_inputs": {
+            "title": {
+              "comment": "Main page h1"
+            },
+            "content": {
+              "options": {
+                "structures": "_structures._bookshop_single_component_content"
+              },
+              "type": "object"
+            },
+            "tags": {
+              "options": {
+                "structures": "_structures._bookshop_single_component_tag"
+              },
+              "type": "array"
+            }
+          }
         }
       ]
     },
@@ -571,12 +627,47 @@
               }
             }
           }
+        },
+        {
+          "value": {
+            "_bookshop_name": "content",
+            "content_html": "",
+            "type": "standard"
+          },
+          "label": "Content",
+          "description": "Generic rich content area",
+          "icon": "wysiwyg",
+          "tags": [
+            "Text"
+          ],
+          "_inputs": {
+            "type": {
+              "type": "select",
+              "options": {
+                "values": [
+                  "standard",
+                  "note"
+                ]
+              }
+            }
+          }
         }
       ]
     },
     "_bookshop_single_component_tag": {
       "id_key": "_bookshop_name",
       "values": [
+        {
+          "value": {
+            "_bookshop_name": "tag",
+            "text": "Tag"
+          },
+          "label": "Tag",
+          "description": "A tag subcomponent",
+          "icon": "smart_button",
+          "tags": [],
+          "_inputs": {}
+        },
         {
           "value": {
             "_bookshop_name": "tag",
