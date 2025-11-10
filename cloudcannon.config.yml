@@ -1,6 +1,14 @@
 paths:
   uploads: uploads
   static: ''
+collections_config:
+  site_pages:
+    path: site/pages
+    icon: fit_page
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 timezone: Europe/Bucharest
 markdown:
   engine: commonmark
