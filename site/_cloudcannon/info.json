@@ -7,7 +7,7 @@
           "value": {
             "_bookshop_name": "content",
             "content_html": "",
-            "type": "standard"
+            "type": "advanced"
           },
           "label": "Content",
           "description": "Generic rich content area",
@@ -68,7 +68,7 @@
           "value": {
             "_bookshop_name": "content",
             "content_html": "",
-            "type": "standard"
+            "type": "advanced"
           },
           "label": "Content",
           "description": "Generic rich content area",
